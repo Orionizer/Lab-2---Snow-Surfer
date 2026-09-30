@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FinishLineScript : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class FinishLineScript : MonoBehaviour
 
         if(collision.gameObject.layer == layerIndex)
         {
-            print("Win");
+            SceneManager.LoadScene(0);
         }
     }
 }
