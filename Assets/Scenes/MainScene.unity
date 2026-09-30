@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 383086959}
   - component: {fileID: 383086960}
   m_Layer: 0
-  m_Name: Floor
+  m_Name: LevelFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -804,6 +804,7 @@ GameObject:
   - component: {fileID: 965922539}
   - component: {fileID: 965922540}
   - component: {fileID: 965922541}
+  - component: {fileID: 965922542}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -891,6 +892,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0.07, y: -1.28}
   m_Size: {x: 3.41, y: 0.67}
   m_Direction: 1
+--- !u!114 &965922542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965922537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3deca172a9beca4cab97210d0b38d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
 --- !u!1 &1134411720
 GameObject:
   m_ObjectHideFlags: 0
